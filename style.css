@@ -1,5 +1,7 @@
 :root
 {
+  --just-white: #eeeeee;
+  --background-black: #1c1c1c;
 }
 * 
 {
@@ -11,19 +13,51 @@ html
 {
   font-size: 62.5%;
 }
-.page-container
+.page-container .page-section
 {
   display: flex;
-  background-color: #1c1c1c;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
   width: 100%;
   height: 100%;
+  color: var(--just-white);
+  background-color: var(--background-black);
 }
 .page-section
 {
-  color: #eeeeee;
+  font-size: 1.6rem
+}
+.navbar-header
+{
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+}
+.navbar-header--container
+{  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  align-items: start;
+  font-size: 2.0rem;
+  margin-top: 22px;
+  padding: 1px 23px 0 23px;
+  gap: 10px;
+}
+.navbar-header--container, .navbar-header--container a
+{
+  color: #cccccc; /*Color gris*/
+  list-style-type: none;
+  text-decoration: none;
+}
+.main-content-info
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .page-section-footer
 {
