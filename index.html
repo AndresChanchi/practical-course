@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs." />
 	<link rel="stylesheet" href="style.css" />
-    <title>DuckDuckGo --- La privacidad, simplificada.</title>
+    <title>DuckDuckGo -- La privacidad, simplificada.</title>
+	<link rel="icon" href="https://res.cloudinary.com/dp852gaey/image/upload/v1686875167/responsive-design/assets/icons/icono-duckduckgo_kltfxk.png" type="image/png"/>
 </head>
 <body>
   <section class="page-container">
@@ -20,22 +21,22 @@
   </header>
   <main class="page-section page-section-header">
 	<section class="search-duck">
-	    <img class="logo-duck"src="https://duckduckgo.com/assets/logo_homepage.alt.v109.svg" alt="Imagen de duckduckgo" />
+	    <img class="logo-duck"src="https://res.cloudinary.com/dp852gaey/image/upload/v1686875167/responsive-design/assets/icons/icono-duckduckgo_kltfxk.png" alt="Imagen de duckduckgo" />
 	  <div class="search-container">
-	    <input class="input-duck" type="text" autocomplete="off" autocorrect="off" placeholder="Busca en la red sin que te rastreen" value autocapitalize="off" />
-		<span class="searcher-image"></span>
+	    <input id="input-duck" class="input-duck" type="text" autocomplete="off" autocorrect="off" placeholder="Busque con Ebre el más ingeligente." value autocapitalize="off" />
+		<input id="input-search" class="searcher-image" type="sumbit" readonly /> 
 	  </div>
 	</section>
 	<section class="main-content-info">
       <h1>¿Cansado de que te rastreen? Podemos ayudarte.</h1>
-	  <p>Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</p>
-	  <ul>
-	    <li><span></span>Búsquedad Privada</li>
-	    <li><span></span>Bloqueo De Rastreadores</li>
-	    <li><span></span>Encriptación De Sitios</li>
+	  <p class="title-paragraph">Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</p>
+	  <ul class="main-content--container">
+		<li><span class="main--container__links"></span>Búsquedad Privada</li>
+	    <li><span class="main--container__links"></span>Bloqueo De Rastreadores</li>
+	    <li><span class="main--container__links"></span>Encriptación De Sitios</li>
 	  </ul>
 	  <button><a href="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg">Añadir DuckDuckGo a chrome</a></button>
-	  <p>!Con la confianza de descenas de millones de personas en todo el mundo!</p>
+	  <p class="call-to-action">!Con la confianza de descenas de millones de personas en todo el mundo!</p>
     </section>
 	<section class="main-feautres-info">
 	  <h2>Protección de la Privacidad para Cualquier Dispositivo</h2>
@@ -67,5 +68,6 @@
 	<img src="https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg"></img>
   </footer>
   </section>
+  <script src="script.js"></script>
 </body>
 </html>
